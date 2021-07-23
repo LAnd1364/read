@@ -1,0 +1,16 @@
+html,
+body {
+   height: 100%;
+}
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background-color: #313131;
+   @extend %pOpenSans-400;
+}
+.main {
+   flex-grow: 1;
+}
